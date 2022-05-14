@@ -144,6 +144,42 @@ li a:hover {
     margin-top: 16px;
 }
 
+.download-row {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.download-box {
+    border-width: 2px;
+    border-style: solid;
+    margin: 16px;
+    padding: 8px;
+    width: 35vw;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.download-box h1 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.download-box h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.download-box p {
+    margin-bottom: 16px;
+}
+
+.download-box h3 {
+    color: var(--heading);
+}
+
 /* Mobile Optimisations */
 @media only screen and (max-width: 1026px) {
 
@@ -188,5 +224,22 @@ li a:hover {
 
     p {
         font-size: 1.6vh;
+    }
+
+    .download-row {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .download-box {
+        border-width: 2px;
+        border-style: solid;
+        margin: 16px;
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 16px !important;
     }
 }
